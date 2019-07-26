@@ -207,8 +207,10 @@ $(document).ready(function () {
 
     /*Responsive sub menu toggle content.*/
 
-    $(".menu-list > div").click(element => {
+    $(".open-sub-menu").click(element => {
         let $this = $(element.currentTarget);
-        $this.toggleClass('active-menu-sub');
+        $this.closest('.p-3').toggleClass('active-menu-sub');
+        let hasActiveClass = $this.closest('.p-3').hasClass('active-menu-sub');
+        hasActiveClass ? $this.text('-') : $this.text('+')
     })
 });

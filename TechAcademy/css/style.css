@@ -2,11 +2,17 @@
   font-family: CeraPRO;
   src: url(../font/cera/Cera_Pro.otf) format("opentype"); }
 @media only screen and (max-width: 992px) {
-  .header-main {
+  .header-main, .header-light {
     display: none; }
 
   .header-res {
-    display: block !important; } }
+    display: block !important; }
+
+  .blog-cooperation-content, .content-box {
+    flex-wrap: wrap; }
+
+  .training-cooperation-content {
+    flex-wrap: wrap-reverse; } }
 .distance {
   padding: 150px 0; }
 
@@ -36,8 +42,7 @@
     color: #2d2d94; }
 
 .blog-path {
-  background-color: #ffffff;
-  padding: 20px 100px; }
+  background-color: #ffffff; }
   .blog-path ul {
     padding: 0;
     margin: 0; }
@@ -667,7 +672,8 @@ header .header-light .stu-btn-id {
 
 .partner-block .partner {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
   .partner-block .partner .our-partner .photo {
     width: 150px;
     text-align: center; }
@@ -814,10 +820,14 @@ header .header-light .stu-btn-id {
 
 .new-blog .content-box, .old-blog .content-box {
   box-shadow: 3px 3px 3px 3px #f6f6f8;
-  margin-bottom: 30px; }
-  .new-blog .content-box .photo img, .old-blog .content-box .photo img {
-    width: 100%;
-    height: auto; }
+  margin-bottom: 30px;
+  display: flex; }
+  .new-blog .content-box .photo, .old-blog .content-box .photo {
+    width: 500px; }
+    .new-blog .content-box .photo img, .old-blog .content-box .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
   .new-blog .content-box .content, .old-blog .content-box .content {
     padding: 15px; }
     .new-blog .content-box .content .title h1, .old-blog .content-box .content .title h1 {
@@ -1030,7 +1040,7 @@ header .header-light .stu-btn-id {
   .selected-training-cooperation .photo {
     position: relative;
     bottom: -50px;
-    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5); }
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2); }
     .training-cooperation .photo img,
     .old-training-cooperation .photo img,
     .selected-training-cooperation .photo img {
@@ -1056,8 +1066,10 @@ header .header-light .stu-btn-id {
         letter-spacing: -1.91;
         color: #ffffff; }
 
-.training-cooperation .content .title {
-  margin-top: 90px; }
+.training-cooperation .training-cooperation-content {
+  display: flex; }
+  .training-cooperation .training-cooperation-content .content .title {
+    margin-top: 90px; }
 
 .selected-training-cooperation {
   padding: 100px;
@@ -1792,5 +1804,8 @@ header .header-light .stu-btn-id {
     text-align: center; }
   .slider .text p {
     text-align: center; } }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1315px; } }
 
 /*# sourceMappingURL=style.css.map */
