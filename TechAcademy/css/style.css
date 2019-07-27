@@ -735,6 +735,8 @@ header .header-light .stu-btn-id {
 .blog-cooperation, .training-ui-cooperation {
   background-color: #2d2d94;
   margin-bottom: 50px; }
+  .blog-cooperation .blog-cooperation-content, .training-ui-cooperation .blog-cooperation-content {
+    display: flex; }
   .blog-cooperation .photo, .training-ui-cooperation .photo {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
     position: relative;
@@ -930,7 +932,7 @@ header .header-light .stu-btn-id {
 
 .video-boxes .content-box, .new-training .content-box, .old-training .content-box {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-  margin-bottom: 50px; }
+  height: 100%; }
   .video-boxes .content-box iframe, .new-training .content-box iframe, .old-training .content-box iframe {
     width: 410px;
     height: 216px; }
@@ -1520,8 +1522,7 @@ header .header-light .stu-btn-id {
   width: 1519px;
   height: 600px; }
 .selected-video .video-photo {
-  width: 100%;
-  height: 600px; }
+  width: 100%; }
   .selected-video .video-photo img {
     width: 100%;
     height: 100%; }
@@ -1548,13 +1549,10 @@ header .header-light .stu-btn-id {
     margin-left: 0%;
     margin-top: 20%;
     position: relative; }
-    .modal .modal-teacher .photo {
-      width: 820px;
-      height: 500px; }
-      .modal .modal-teacher .photo img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain; }
+    .modal .modal-teacher .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; }
     .modal .modal-teacher .arrow-btn .left {
       position: absolute;
       top: 50%;
@@ -1590,12 +1588,9 @@ header .header-light .stu-btn-id {
     margin-left: 0%;
     margin-top: 25%;
     position: relative; }
-    .popup .modal-teacher .photo {
-      width: 250px;
-      height: 250px; }
-      .popup .modal-teacher .photo img {
-        width: 100%;
-        height: 100%; }
+    .popup .modal-teacher .photo img {
+      width: 100%;
+      height: 100%; }
     .popup .modal-teacher .full-name {
       display: block; }
       .popup .modal-teacher .full-name h5 {
@@ -1649,37 +1644,32 @@ header .header-light .stu-btn-id {
       right: 10px;
       color: #93a2ac; }
 
-.teacher-staff {
-  padding: 0 100px; }
-  .teacher-staff .teacher-photo .photo {
-    width: 400px;
-    height: 400px; }
-    .teacher-staff .teacher-photo .photo img {
-      width: 100%;
-      height: 100%; }
-  .teacher-staff .teacher-photo .fullname {
-    text-align: center;
-    margin-top: 15px; }
-    .teacher-staff .teacher-photo .fullname h4 {
-      font-family: CeraPRO;
-      font-size: 20px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: #2e2e2e; }
-  .teacher-staff .teacher-photo .position {
-    text-align: center; }
-    .teacher-staff .teacher-photo .position p {
-      font-family: CeraPRO;
-      font-size: 16px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: #969696; }
+.teacher-staff .teacher-photo .photo img {
+  width: 100%;
+  height: 100%; }
+.teacher-staff .teacher-photo .fullname {
+  text-align: center;
+  margin-top: 15px; }
+  .teacher-staff .teacher-photo .fullname h4 {
+    font-family: CeraPRO;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e2e; }
+.teacher-staff .teacher-photo .position {
+  text-align: center; }
+  .teacher-staff .teacher-photo .position p {
+    font-family: CeraPRO;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #969696; }
 
 .apply .head {
   padding-bottom: 30px; }

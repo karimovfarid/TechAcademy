@@ -634,7 +634,9 @@ header {
 .blog-cooperation, .training-ui-cooperation {
   background-color: $main_color;
   margin-bottom: 50px;
-
+  .blog-cooperation-content{
+    display: flex;
+  }
   .photo {
 
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
@@ -849,8 +851,8 @@ header {
 .video-boxes, .new-training, .old-training {
   .content-box {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
-    margin-bottom: 50px;
-
+    //margin-bottom: 50px;
+    height: 100%;
     iframe {
       width: 410px;
       height: 216px;
@@ -1474,7 +1476,6 @@ header {
 
   .video-photo {
     width: 100%;
-    height: 600px;
 
     img {
       width: 100%;
@@ -1511,8 +1512,8 @@ header {
     position: relative;
 
     .photo {
-      width: 820px;
-      height: 500px;
+      //width: 820px;
+      //height: 500px;
 
       img {
         width: 100%;
@@ -1572,8 +1573,8 @@ header {
     position: relative;
 
     .photo {
-      width: 250px;
-      height: 250px;
+      //width: 250px;
+      //height: 250px;
 
       img {
         width: 100%;
@@ -1637,12 +1638,12 @@ header {
 }
 
 .teacher-staff {
-  padding: 0 100px;
+  //padding: 0 100px;
 
   .teacher-photo {
     .photo {
-      width: 400px;
-      height: 400px;
+      //width: 400px;
+      //height: 400px;
 
       img {
         width: 100%;
