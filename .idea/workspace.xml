@@ -13,104 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechAcademy/old-training.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechAcademy/teacher.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="167" column="30" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechAcademy/training-iu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="312" selection-start-line="312" selection-end-line="406" selection-end-column="9" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechAcademy/video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechAcademy/new-training.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="437" column="6" selection-start-line="437" selection-start-column="6" selection-end-line="437" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#div#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#div#0;n#html#0;n#!!top" />
-                <element signature="n#section#2;n#div#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#div#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TechAcademy/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="1698" column="19" lean-forward="true" selection-start-line="1698" selection-start-column="19" selection-end-line="1698" selection-end-column="19" />
+            <state relative-caret-position="123">
+              <caret line="627" column="45" lean-forward="true" selection-start-line="627" selection-start-column="45" selection-end-line="627" selection-end-column="45" />
               <folding>
                 <element signature="e#1219#2674#0" />
                 <element signature="e#3079#3470#0" />
-                <element signature="e#3514#3693#0" />
                 <element signature="e#3730#3753#0" />
                 <element signature="e#3931#4098#0" />
                 <element signature="e#4136#4198#0" />
@@ -121,63 +31,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TechAcademy/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="130" column="14" lean-forward="true" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+              <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TechAcademy/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="269" column="41" lean-forward="true" selection-start-line="269" selection-start-column="41" selection-end-line="269" selection-end-column="41" />
+            <state relative-caret-position="141">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="116" selection-end-column="13" />
               <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechAcademy/our-education.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="421" column="4" selection-start-line="421" selection-start-column="4" selection-end-line="515" selection-end-column="13" />
-              <folding>
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechAcademy/selected-blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechAcademy/selected-video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="385" column="13" selection-start-line="385" selection-start-column="13" selection-end-line="385" selection-end-column="13" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -193,9 +71,7 @@
       <find>d-flex</find>
       <find>training-cooperation-content</find>
       <find>opinion</find>
-      <find>blog-cooperation-content</find>
       <find>training-cooperation</find>
-      <find>blog-cooperation</find>
       <find>training-co</find>
       <find>blog-c</find>
       <find>teacher-staff</find>
@@ -209,7 +85,10 @@
       <find>management-staff</find>
       <find>footer-top</find>
       <find>ft-address</find>
+      <find>form-sub</find>
       <find>pt</find>
+      <find>blog-cooperation-content</find>
+      <find>blog-cooperation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,7 +99,6 @@
       <list>
         <option value="$PROJECT_DIR$/TechAcademy/js/script.js" />
         <option value="$PROJECT_DIR$/TechAcademy/contact.html" />
-        <option value="$PROJECT_DIR$/TechAcademy/blog.html" />
         <option value="$PROJECT_DIR$/TechAcademy/new-training.html" />
         <option value="$PROJECT_DIR$/TechAcademy/selected-blog.html" />
         <option value="$PROJECT_DIR$/TechAcademy/old-training.html" />
@@ -230,6 +108,7 @@
         <option value="$PROJECT_DIR$/TechAcademy/training-iu.html" />
         <option value="$PROJECT_DIR$/TechAcademy/video.html" />
         <option value="$PROJECT_DIR$/TechAcademy/about.html" />
+        <option value="$PROJECT_DIR$/TechAcademy/blog.html" />
         <option value="$PROJECT_DIR$/TechAcademy/css/style.scss" />
       </list>
     </option>
@@ -305,23 +184,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564158485123</updated>
-      <workItem from="1564158486405" duration="21445000" />
+      <workItem from="1564158486405" duration="26863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21445000" />
+    <option name="totallyTimeSpent" value="26863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -385,19 +263,6 @@
           <caret line="123" column="22" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TechAcademy/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="374" column="4" selection-start-line="374" selection-start-column="4" selection-end-line="468" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -527,9 +392,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TechAcademy/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="269" column="41" lean-forward="true" selection-start-line="269" selection-start-column="41" selection-end-line="269" selection-end-column="41" />
+        <state relative-caret-position="141">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="116" selection-end-column="13" />
           <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -537,14 +403,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TechAcademy/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="130" column="14" lean-forward="true" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TechAcademy/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="1698" column="19" lean-forward="true" selection-start-line="1698" selection-start-column="19" selection-end-line="1698" selection-end-column="19" />
+        <state relative-caret-position="123">
+          <caret line="627" column="45" lean-forward="true" selection-start-line="627" selection-start-column="45" selection-end-line="627" selection-end-column="45" />
           <folding>
             <element signature="e#1219#2674#0" />
             <element signature="e#3079#3470#0" />
-            <element signature="e#3514#3693#0" />
             <element signature="e#3730#3753#0" />
             <element signature="e#3931#4098#0" />
             <element signature="e#4136#4198#0" />

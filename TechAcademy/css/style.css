@@ -1,18 +1,6 @@
 @font-face {
   font-family: CeraPRO;
   src: url(../font/cera/Cera_Pro.otf) format("opentype"); }
-@media only screen and (max-width: 992px) {
-  .header-main, .header-light {
-    display: none; }
-
-  .header-res {
-    display: block !important; }
-
-  .blog-cooperation-content, .content-box {
-    flex-wrap: wrap; }
-
-  .training-cooperation-content {
-    flex-wrap: wrap-reverse; } }
 .distance {
   padding: 150px 0; }
 
@@ -733,19 +721,22 @@ header .header-light .header-nav {
 
 .blog-cooperation, .training-ui-cooperation {
   background-color: #2d2d94;
-  margin-bottom: 50px; }
+  margin-bottom: 90px; }
   .blog-cooperation .blog-cooperation-content, .training-ui-cooperation .blog-cooperation-content {
-    display: flex; }
+    position: relative; }
   .blog-cooperation .photo, .training-ui-cooperation .photo {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-    position: relative;
-    bottom: -50px; }
+    position: absolute;
+    width: 632px;
+    top: 101px; }
     .blog-cooperation .photo img, .training-ui-cooperation .photo img {
       width: 100%;
       height: 100%;
       object-fit: cover; }
   .blog-cooperation .content, .training-ui-cooperation .content {
-    padding: 35px; }
+    width: 50%;
+    padding: 54px;
+    margin-left: auto; }
     .blog-cooperation .content .title, .training-ui-cooperation .content .title {
       margin-top: 50px; }
       .blog-cooperation .content .title h1, .training-ui-cooperation .content .title h1 {
@@ -830,7 +821,7 @@ header .header-light .header-nav {
       height: 100%;
       object-fit: cover; }
   .new-blog .content-box .content, .old-blog .content-box .content {
-    padding: 15px; }
+    padding: 20px 15px 10px 25px; }
     .new-blog .content-box .content .title h1, .old-blog .content-box .content .title h1 {
       font-family: CeraPRO;
       font-size: 20px;
@@ -841,7 +832,7 @@ header .header-light .header-nav {
       letter-spacing: normal;
       color: #2e2e2e; }
     .new-blog .content-box .content .text, .old-blog .content-box .content .text {
-      margin: 30px 0; }
+      margin: 22px 0; }
       .new-blog .content-box .content .text p, .old-blog .content-box .content .text p {
         font-family: CeraPRO;
         font-size: 14px;
@@ -1812,5 +1803,24 @@ header .header-light .header-nav {
 @media (min-width: 1200px) {
   .container {
     max-width: 1315px; } }
+@media only screen and (max-width: 992px) {
+  .header-main, .header-light {
+    display: none; }
+
+  .header-res {
+    display: block !important; }
+
+  .blog-cooperation-content .photo {
+    position: static;
+    width: 100%; }
+  .blog-cooperation-content .content {
+    width: 100%;
+    padding: 10px; }
+
+  .content-box {
+    flex-wrap: wrap; }
+
+  .training-cooperation-content {
+    flex-wrap: wrap-reverse; } }
 
 /*# sourceMappingURL=style.css.map */

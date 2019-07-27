@@ -169,22 +169,7 @@ $black-color: #121e24;
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .header-main, .header-light {
-    display: none;
-  }
-  .header-res {
-    display: block !important;
-  }
 
-  .blog-cooperation-content, .content-box {
-    flex-wrap: wrap;
-  }
-
-  .training-cooperation-content {
-    flex-wrap: wrap-reverse;
-  }
-}
 
 //---------------------
 
@@ -385,10 +370,12 @@ header {
     @include header-logo($main_color, #00bcf2);
     @include header-menu($main_color, $main_color, $white_color);
     @include header-button($main_color, $main_color);
-    .header-nav{
+
+    .header-nav {
       display: flex;
       justify-content: space-between;
-      .nav-list{
+
+      .nav-list {
         display: flex;
       }
     }
@@ -640,15 +627,17 @@ header {
 
 .blog-cooperation, .training-ui-cooperation {
   background-color: $main_color;
-  margin-bottom: 50px;
-  .blog-cooperation-content{
-    display: flex;
-  }
-  .photo {
+  margin-bottom: 90px;
 
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+  .blog-cooperation-content {
     position: relative;
-    bottom: -50px;
+  }
+
+  .photo {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+    position: absolute;
+    width: 632px;
+    top: 101px;
 
     img {
       width: 100%;
@@ -658,7 +647,9 @@ header {
   }
 
   .content {
-    padding: 35px;
+    width: 50%;
+    padding: 54px;
+    margin-left: auto;
 
     .title {
       margin-top: 50px;
@@ -745,7 +736,7 @@ header {
     }
 
     .content {
-      padding: 15px;
+      padding: 20px 15px 10px 25px;
       //width: 90%;
       .title {
         h1 {
@@ -754,7 +745,7 @@ header {
       }
 
       .text {
-        margin: 30px 0;
+        margin: 22px 0;
 
         p {
           @include font-family(CeraPRO, 14px, bold, normal, normal, 1.57, normal, #969696);
@@ -860,6 +851,7 @@ header {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
     //margin-bottom: 50px;
     height: 100%;
+
     iframe {
       width: 410px;
       height: 216px;
@@ -998,6 +990,7 @@ header {
 .training-cooperation {
   .training-cooperation-content {
     display: flex;
+
     .content {
       .title {
         margin-top: 90px;
@@ -1697,6 +1690,7 @@ header {
   .form-sub {
     max-width: 55em;
     margin: 0 auto;
+
     form {
       .form-group {
         //margin: 40px 0;
@@ -1751,11 +1745,12 @@ header {
 }
 
 .footer {
-  .footer-top{
-    .form-group{
+  .footer-top {
+    .form-group {
       margin-bottom: 5rem;
     }
   }
+
   .footer-bottom {
     padding: 56px 0 100px 0;
     background-color: #2d2d94;
@@ -1804,6 +1799,7 @@ header {
     .ft-icon {
       display: flex;
       align-items: center;
+
       .ft-instagram, .ft-twitter, .ft-facebook {
         display: inline-block;
 
@@ -1830,11 +1826,11 @@ header {
   }
 }
 
-.pt-6{
+.pt-6 {
   padding-top: 6.6rem;
 }
 
-.pt-7{
+.pt-7 {
   padding-top: 7em;
 }
 
@@ -1857,5 +1853,33 @@ header {
 @media (min-width: 1200px) {
   .container {
     max-width: 1315px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header-main, .header-light {
+    display: none;
+  }
+  .header-res {
+    display: block !important;
+  }
+
+  .blog-cooperation-content {
+    .photo {
+      position: static;
+      width: 100%;
+    }
+
+    .content {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  .content-box {
+    flex-wrap: wrap;
+  }
+
+  .training-cooperation-content {
+    flex-wrap: wrap-reverse;
   }
 }
