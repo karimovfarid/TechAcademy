@@ -20,7 +20,7 @@
   text-align: center; }
   .head-center .title h1 {
     font-family: CeraPRO;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -231,14 +231,13 @@ header .header-main {
         color: #ffffff;
         font-family: initial; }
   header .header-main .nav-bar {
-    margin-top: 8px; }
+    margin: 11px 36px 0 0; }
     header .header-main .nav-bar .nav-menu {
-      float: right;
       padding: 0;
       margin: 0; }
       header .header-main .nav-bar .nav-menu .nv-menu-li {
         position: relative;
-        padding-right: 40px;
+        padding-right: 38px;
         display: inline-block;
         cursor: pointer; }
         header .header-main .nav-bar .nav-menu .nv-menu-li::after {
@@ -255,7 +254,7 @@ header .header-main {
           padding-right: 0; }
         header .header-main .nav-bar .nav-menu .nv-menu-li a {
           font-family: CeraPRO;
-          font-size: 16px;
+          font-size: 15px;
           font-weight: 500;
           font-style: normal;
           font-stretch: normal;
@@ -295,8 +294,7 @@ header .header-main {
           display: block; }
   header .header-main .stu-btn-id {
     border-radius: 30px;
-    padding: 8px 22px;
-    float: right;
+    padding: 12px 27px;
     border: 1px solid #ffffff; }
     header .header-main .stu-btn-id a {
       font-family: CeraPRO;
@@ -333,14 +331,13 @@ header .header-dark {
         color: #00bcf2;
         font-family: initial; }
   header .header-dark .nav-bar {
-    margin-top: 8px; }
+    margin: 11px 36px 0 0; }
     header .header-dark .nav-bar .nav-menu {
-      float: right;
       padding: 0;
       margin: 0; }
       header .header-dark .nav-bar .nav-menu .nv-menu-li {
         position: relative;
-        padding-right: 40px;
+        padding-right: 38px;
         display: inline-block;
         cursor: pointer; }
         header .header-dark .nav-bar .nav-menu .nv-menu-li::after {
@@ -357,7 +354,7 @@ header .header-dark {
           padding-right: 0; }
         header .header-dark .nav-bar .nav-menu .nv-menu-li a {
           font-family: CeraPRO;
-          font-size: 16px;
+          font-size: 15px;
           font-weight: 500;
           font-style: normal;
           font-stretch: normal;
@@ -397,8 +394,7 @@ header .header-dark {
           display: block; }
   header .header-dark .stu-btn-id {
     border-radius: 30px;
-    padding: 8px 22px;
-    float: right;
+    padding: 12px 27px;
     border: 1px solid #2d2d94; }
     header .header-dark .stu-btn-id a {
       font-family: CeraPRO;
@@ -427,14 +423,13 @@ header .header-light .header-logo a {
       color: #00bcf2;
       font-family: initial; }
 header .header-light .nav-bar {
-  margin-top: 8px; }
+  margin: 11px 36px 0 0; }
   header .header-light .nav-bar .nav-menu {
-    float: right;
     padding: 0;
     margin: 0; }
     header .header-light .nav-bar .nav-menu .nv-menu-li {
       position: relative;
-      padding-right: 40px;
+      padding-right: 38px;
       display: inline-block;
       cursor: pointer; }
       header .header-light .nav-bar .nav-menu .nv-menu-li::after {
@@ -451,7 +446,7 @@ header .header-light .nav-bar {
         padding-right: 0; }
       header .header-light .nav-bar .nav-menu .nv-menu-li a {
         font-family: CeraPRO;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         font-style: normal;
         font-stretch: normal;
@@ -491,8 +486,7 @@ header .header-light .nav-bar {
         display: block; }
 header .header-light .stu-btn-id {
   border-radius: 30px;
-  padding: 8px 22px;
-  float: right;
+  padding: 12px 27px;
   border: 1px solid #2d2d94; }
   header .header-light .stu-btn-id a {
     font-family: CeraPRO;
@@ -506,6 +500,11 @@ header .header-light .stu-btn-id {
     text-decoration: none; }
     header .header-light .stu-btn-id a::after {
       content: ""; }
+header .header-light .header-nav {
+  display: flex;
+  justify-content: space-between; }
+  header .header-light .header-nav .nav-list {
+    display: flex; }
 
 .slider {
   background-repeat: no-repeat;
@@ -682,7 +681,7 @@ header .header-light .stu-btn-id {
       height: 100%; }
 
 .our-history .history .title {
-  margin-bottom: 20px; }
+  margin-bottom: 2em; }
   .our-history .history .title h1 {
     font-family: CeraPRO;
     font-size: 40px;
@@ -1685,8 +1684,9 @@ header .header-light .stu-btn-id {
       letter-spacing: -0.68;
       color: #2d2d94;
       text-align: center; }
-.apply .form-sub form .form-group {
-  margin: 40px 0; }
+.apply .form-sub {
+  max-width: 55em;
+  margin: 0 auto; }
   .apply .form-sub form .form-group .name,
   .apply .form-sub form .form-group .surname,
   .apply .form-sub form .form-group .phone {
@@ -1703,21 +1703,21 @@ header .header-light .stu-btn-id {
     .apply .form-sub form .form-group .surname:focus,
     .apply .form-sub form .form-group .phone:focus {
       border-bottom: 1px solid #969696; }
-.apply .form-sub form .btn-apply {
-  text-align: center;
-  margin: 30px 0; }
-  .apply .form-sub form .btn-apply button {
-    padding: 10px 30px;
-    border-radius: 25.5px;
-    font-family: CeraPRO;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: -0.57;
-    color: #ffffff;
-    background-color: #2d2d94; }
+  .apply .form-sub form .btn-apply {
+    text-align: center;
+    margin: 30px 0; }
+    .apply .form-sub form .btn-apply button {
+      padding: 16px 40px;
+      border-radius: 25.5px;
+      font-family: CeraPRO;
+      font-size: 16px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: -0.57;
+      color: #ffffff;
+      background-color: #2d2d94; }
 
 .scrollTop {
   position: fixed;
@@ -1729,8 +1729,10 @@ header .header-light .stu-btn-id {
       cursor: pointer;
       width: 50px; }
 
+.footer .footer-top .form-group {
+  margin-bottom: 5rem; }
 .footer .footer-bottom {
-  padding: 100px 0 100px 0;
+  padding: 56px 0 100px 0;
   background-color: #2d2d94;
   margin-top: 90px; }
   .footer .footer-bottom .ft-menu {
@@ -1763,9 +1765,13 @@ header .header-light .stu-btn-id {
           letter-spacing: normal;
           color: #d0cfcf; }
     .footer .footer-bottom .ft-menu .ft-address {
-      max-width: 300px; }
+      max-width: 300px;
+      height: 100%;
+      display: flex;
+      align-items: flex-end; }
       .footer .footer-bottom .ft-menu .ft-address span {
         display: block;
+        margin: 0 0 16px 28px;
         font-family: CeraPRO;
         font-size: 16px;
         font-weight: normal;
@@ -1774,19 +1780,28 @@ header .header-light .stu-btn-id {
         line-height: 2.44;
         letter-spacing: normal;
         color: #d0cfcf; }
-  .footer .footer-bottom .ft-icon .ft-instagram, .footer .footer-bottom .ft-icon .ft-twitter, .footer .footer-bottom .ft-icon .ft-facebook {
-    display: inline-block; }
-    .footer .footer-bottom .ft-icon .ft-instagram i, .footer .footer-bottom .ft-icon .ft-twitter i, .footer .footer-bottom .ft-icon .ft-facebook i {
-      border-radius: 50%;
-      padding: 7px;
-      color: #2d2d94;
-      width: 29px;
-      height: 29px;
-      background-color: #c7c6cb; }
-  .footer .footer-bottom .ft-icon .ft-twitter {
-    margin: 0 10px; }
-  .footer .footer-bottom .ft-icon .ft-facebook i {
-    padding: 7px 10px; }
+  .footer .footer-bottom .ft-icon {
+    display: flex;
+    align-items: center; }
+    .footer .footer-bottom .ft-icon .ft-instagram, .footer .footer-bottom .ft-icon .ft-twitter, .footer .footer-bottom .ft-icon .ft-facebook {
+      display: inline-block; }
+      .footer .footer-bottom .ft-icon .ft-instagram i, .footer .footer-bottom .ft-icon .ft-twitter i, .footer .footer-bottom .ft-icon .ft-facebook i {
+        border-radius: 50%;
+        padding: 7px;
+        color: #2d2d94;
+        width: 29px;
+        height: 29px;
+        background-color: #c7c6cb; }
+    .footer .footer-bottom .ft-icon .ft-twitter {
+      margin: 0 30px; }
+    .footer .footer-bottom .ft-icon .ft-facebook i {
+      padding: 7px 10px; }
+
+.pt-6 {
+  padding-top: 6.6rem; }
+
+.pt-7 {
+  padding-top: 7em; }
 
 @media screen and (max-width: 991px) {
   .slider h1 {

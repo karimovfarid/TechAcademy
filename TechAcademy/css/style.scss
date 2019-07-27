@@ -55,16 +55,16 @@ $black-color: #121e24;
 @mixin header-menu($menu-main-color , $after-color , $menu-sub-color) {
 
   .nav-bar {
-    margin-top: 8px;
+    margin: 11px 36px 0 0;
 
     .nav-menu {
-      float: right;
+      //float: right;
       padding: 0;
       margin: 0;
 
       .nv-menu-li {
         position: relative;
-        padding-right: 40px;
+        padding-right: 38px;
         display: inline-block;
         cursor: pointer;
 
@@ -79,7 +79,7 @@ $black-color: #121e24;
         }
 
         a {
-          @include font-family(CeraPRO, 16px, 500, normal, normal, normal, -0.54, $menu-main-color);
+          @include font-family(CeraPRO, 15px, 500, normal, normal, normal, -0.54, $menu-main-color);
           text-decoration: none;
         }
 
@@ -129,8 +129,8 @@ $black-color: #121e24;
 @mixin header-button($border-color,$btn-color) {
   .stu-btn-id {
     border-radius: 30px;
-    padding: 8px 22px;
-    float: right;
+    padding: 12px 27px;
+    //float: right;
     border: 1px solid $border-color;
 
     a {
@@ -197,7 +197,7 @@ $black-color: #121e24;
 
   .title {
     h1 {
-      @include font-family(CeraPRO, 40px, bold, normal, normal, normal, normal, $main_color);
+      @include font-family(CeraPRO, 44px, bold, normal, normal, normal, normal, $main_color);
     }
   }
 }
@@ -385,6 +385,13 @@ header {
     @include header-logo($main_color, #00bcf2);
     @include header-menu($main_color, $main_color, $white_color);
     @include header-button($main_color, $main_color);
+    .header-nav{
+      display: flex;
+      justify-content: space-between;
+      .nav-list{
+        display: flex;
+      }
+    }
   }
 }
 
@@ -581,7 +588,7 @@ header {
 .our-history {
   .history {
     .title {
-      margin-bottom: 20px;
+      margin-bottom: 2em;
 
       h1 {
         @include font-family(CeraPRO, 40px, bold, normal, normal, normal, -0.68, $main_color);
@@ -1688,9 +1695,11 @@ header {
   }
 
   .form-sub {
+    max-width: 55em;
+    margin: 0 auto;
     form {
       .form-group {
-        margin: 40px 0;
+        //margin: 40px 0;
 
         .name,
         .surname,
@@ -1716,7 +1725,7 @@ header {
         margin: 30px 0;
 
         button {
-          padding: 10px 30px;
+          padding: 16px 40px;
           border-radius: 25.5px;
           @include font-family(CeraPRO, 16px, 600, normal, normal, normal, -0.57, #ffffff);
           background-color: $main-color;
@@ -1742,8 +1751,13 @@ header {
 }
 
 .footer {
+  .footer-top{
+    .form-group{
+      margin-bottom: 5rem;
+    }
+  }
   .footer-bottom {
-    padding: 100px 0 100px 0;
+    padding: 56px 0 100px 0;
     background-color: #2d2d94;
     margin-top: 90px;
 
@@ -1775,15 +1789,21 @@ header {
 
       .ft-address {
         max-width: 300px;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
 
         span {
           display: block;
+          margin: 0 0 16px 28px;
           @include font-family(CeraPRO, 16px, normal, normal, normal, 2.44, normal, #d0cfcf);
         }
       }
     }
 
     .ft-icon {
+      display: flex;
+      align-items: center;
       .ft-instagram, .ft-twitter, .ft-facebook {
         display: inline-block;
 
@@ -1798,7 +1818,7 @@ header {
       }
 
       .ft-twitter {
-        margin: 0 10px;
+        margin: 0 30px;
       }
 
       .ft-facebook {
@@ -1808,6 +1828,14 @@ header {
       }
     }
   }
+}
+
+.pt-6{
+  padding-top: 6.6rem;
+}
+
+.pt-7{
+  padding-top: 7em;
 }
 
 
