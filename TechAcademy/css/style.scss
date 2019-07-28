@@ -10,6 +10,16 @@ $black-color: #121e24;
   src: url(../font/cera/Cera_Pro.otf) format("opentype");
 }
 
+@font-face {
+  font-family: CeraPROBold;
+  src: url(../font/cera/Cera_Pro_Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: CeraPROLight;
+  src: url(../font/cera/Cera_Pro_Light.otf) format("opentype");
+}
+
 @mixin font-family($font-family , $font-size, $font-weight , $font-style , $font-stretch , $line-height,$letter-spacing, $color) {
   font-family: $font-family;
   font-size: $font-size;
@@ -53,7 +63,6 @@ $black-color: #121e24;
 }
 
 @mixin header-menu($menu-main-color , $after-color , $menu-sub-color) {
-
   .nav-bar {
     margin: 11px 36px 0 0;
 
@@ -79,7 +88,7 @@ $black-color: #121e24;
         }
 
         a {
-          @include font-family(CeraPRO, 15px, 500, normal, normal, normal, -0.54, $menu-main-color);
+          @include font-family(CeraPROLight, 15px, 500, normal, normal, normal, -0.54, $menu-main-color);
           text-decoration: none;
         }
 
@@ -126,6 +135,10 @@ $black-color: #121e24;
   }
 }
 
+.path {
+  font-family: CeraPROLight;
+}
+
 @mixin header-button($border-color,$btn-color) {
   .stu-btn-id {
     border-radius: 30px;
@@ -168,7 +181,6 @@ $black-color: #121e24;
     }
   }
 }
-
 
 
 //---------------------
@@ -336,18 +348,16 @@ $black-color: #121e24;
 
 header {
   .header-main {
-    padding: 40px 0;
+    padding: 25px 0;
     width: 100%;
-    //z-index: 10;
-    //@include position(absolute, 0, 0);
+    z-index: 9;
+    position: relative;
     @include header-logo($white-color, $white-color);
     @include header-menu($white-color, $white-color, $white-color);
     @include header-button($white-color, $white-color);
 
     .overlay-menu {
-      //@include position(absolute, 0, 0);
       width: 100%;
-      //height: 250px;
       background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.01));
     }
   }
@@ -363,23 +373,23 @@ header {
   }
 
   .header-light {
-    //padding: 40px 100px;
-    //width: 100%;
-    //z-index: 10;
-    //@include position(absolute, 0, 0);
     @include header-logo($main_color, #00bcf2);
     @include header-menu($main_color, $main_color, $white_color);
     @include header-button($main_color, $main_color);
-
-    .header-nav {
-      display: flex;
-      justify-content: space-between;
-
-      .nav-list {
-        display: flex;
-      }
-    }
   }
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+
+  .nav-list {
+    display: flex;
+  }
+}
+
+#slider1 {
+  padding: 106px 0 50px 0;
 }
 
 .slider {
@@ -397,8 +407,8 @@ header {
   }
 
   .slider-content {
-    margin-top: 120px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 155px;
 
     .title {
       h1 {
@@ -407,10 +417,10 @@ header {
     }
 
     .text {
-      padding: 40px 0;
+      padding: 25px 0;
 
       p {
-        @include font-family(CeraPRO, 24px, normal, normal, normal, 1.56, normal, $white_color);
+        @include font-family(CeraPRO, 19px, normal, normal, normal, 1.56, normal, $white_color);
       }
     }
 
@@ -432,28 +442,33 @@ header {
 }
 
 .features-block {
-  .box {
+  .features-block-content {
+    padding: 75px;
     display: flex;
 
-    .icon {
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
+    .box {
+      margin-left: 40px;
+      display: flex;
 
-    .content {
-      margin-left: 24px;
-
-      .title {
-        h5 {
-          @include font-family(CeraPRO, 18px, 600, normal, normal, normal, -0.68, $main-color);
+      .icon {
+        img {
+          height: 85px;
         }
       }
 
-      .text {
-        p {
-          @include font-family(CeraPRO, 16px, normal, normal, normal, normal, -0.68, #c9c9c9);
+      .content {
+        margin-left: 70px;
+
+        .title {
+          h5 {
+            @include font-family(CeraPRO, 18px, 600, normal, normal, normal, -0.68, $main-color);
+          }
+        }
+
+        .text {
+          p {
+            @include font-family(CeraPROLight, 14px, normal, normal, normal, normal, -0.68, #c9c9c9);
+          }
         }
       }
     }
@@ -461,6 +476,8 @@ header {
 }
 
 .difference-block {
+  padding-top: 100px;
+
   .photo {
     img {
       width: 100%;
@@ -469,7 +486,7 @@ header {
   }
 
   .content {
-    padding: 50px 0;
+    padding: 60px;
 
     .title {
       margin-bottom: 40px;
@@ -481,13 +498,15 @@ header {
 
     .text {
       p {
-        @include font-family(CeraPRO, 16px, normal, normal, normal, 1.4, -0.68, #adadad);
+        @include font-family(CeraPROLight, 16px, normal, normal, normal, 1.4, -0.68, #adadad);
       }
     }
   }
 }
 
 .expert-block {
+  padding-top: 100px;
+
   .head-center {
     padding-bottom: 50px;
 
@@ -550,6 +569,8 @@ header {
 }
 
 .partner-block {
+  padding-top: 150px;
+
   .partner {
     display: flex;
     justify-content: space-between;
@@ -557,7 +578,7 @@ header {
 
     .our-partner {
       .photo {
-        width: 150px;
+        width: 230px;
         //height: 53px;
         text-align: center;
 
@@ -627,10 +648,11 @@ header {
 
 .blog-cooperation, .training-ui-cooperation {
   background-color: $main_color;
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 
   .blog-cooperation-content {
     position: relative;
+    padding: 10px 0 15px 0;
   }
 
   .photo {
@@ -652,7 +674,7 @@ header {
     margin-left: auto;
 
     .title {
-      margin-top: 50px;
+      padding-top: 90px;
 
       h1 {
         @include font-family(CeraPRO, 30px, bold, normal, normal, 1.27, -1.15, $white_color);
@@ -660,7 +682,7 @@ header {
     }
 
     .text {
-      margin: 40px 0;
+      margin: 20px 0;
 
       p {
         @include font-family(CeraPRO, 16px, normal, normal, normal, 1.57, normal, #c9c9c9);
@@ -668,11 +690,11 @@ header {
     }
 
     .view-date {
-      margin: 50px 0;
+      margin: 30px 0;
 
       .date {
         display: inline-block;
-        margin-right: 50px;
+        margin-right: 100px;
 
         img {
           width: 17px;
@@ -689,7 +711,7 @@ header {
         display: inline-block;
 
         img {
-          width: 17px;
+          //width: 17px;
           height: 17px;
         }
 
@@ -702,7 +724,7 @@ header {
 
     .more-btn {
       a {
-        padding: 12px 35px;
+        padding: 15px 39px;
         text-decoration: none;
         border-radius: 50px;
         background-color: $white_color;
@@ -719,10 +741,13 @@ header {
   }
 }
 
+.new-blog {
+  padding: 80px 0 12px 0;
+}
+
 .new-blog, .old-blog {
   .content-box {
-    box-shadow: 3px 3px 3px 3px #f6f6f8;
-    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
     display: flex;
 
     .photo {
@@ -783,7 +808,7 @@ header {
 }
 
 .old-blog {
-  padding-top: 0;
+  padding: 20px 0 100px 0;
 }
 
 //---------------> contact start <-------------
@@ -810,10 +835,10 @@ header {
 
     .content {
       .phone, .mobile_phone, .address {
-        margin: 20px 0;
+        margin: 30px 0;
 
         img {
-          width: 20px;
+          width: 15px;
           margin-right: 15px;
         }
 
@@ -844,6 +869,10 @@ header {
       }
     }
   }
+}
+
+.new-training {
+  padding-top: 100px;
 }
 
 .video-boxes, .new-training, .old-training {
@@ -947,7 +976,7 @@ header {
 
 .more-btn {
   a {
-    @include font-family(CeraPRO, 18px, normal, normal, normal, 1.25, normal, $main-color);
+    @include font-family(CeraPRO, 21px, normal, normal, normal, 1.25, normal, $main-color);
     text-decoration: none;
 
     i {
@@ -989,12 +1018,27 @@ header {
 
 .training-cooperation {
   .training-cooperation-content {
-    display: flex;
+    position: relative;
 
     .content {
+      width: 50%;
+      padding: 100px 0 60px 0;
+
       .title {
         margin-top: 90px;
+
+        h1 {
+          @include font-family(CeraPROBold, 48px, bold, normal, normal, 1.27, -1.15, $white_color);
+        }
       }
+    }
+
+    .photo {
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      width: 632px;
+      top: 0;
+      right: 0;
     }
   }
 
@@ -1040,15 +1084,22 @@ header {
 }
 
 .opinion {
+  padding-bottom: 100px;
+
   .date-address {
     margin-top: 30px;
 
+    span {
+      @include font-family(CeraPRO, 18px, normal, normal, normal, 1.72, normal, #969696);
+    }
+
     .date {
-      margin-right: 15px;
+      margin-right: 65px;
 
       img {
-        width: 15px;
+        width: 22px;
         height: auto;
+        margin-right: 10px;
       }
     }
   }
@@ -1113,10 +1164,13 @@ header {
     background-color: $main_color;
     border-radius: 30px;
     padding: 12px 35px;
+    a{
+      color: white;
+    }
   }
 
   .content {
-    padding: 40px 0;
+    padding: 35px 0 0 0;
 
     .title {
       h4 {
@@ -1210,50 +1264,68 @@ header {
     .title {
       text-align: center;
 
+      .text-light {
+        max-width: 7em;
+        margin: 0 auto;
+      }
+
       h1 {
-        @include font-family(CeraPRO, 70px, 900, normal, normal, 1.72, normal, $white_color);
+        @include font-family(CeraPROBold, 70px, 900, normal, normal, 1, normal, $white_color);
       }
     }
   }
 }
 
 .phyton-camp {
+  position: relative;
+  height: 284px;
+
   .phyton {
     background-color: $main_color;
     position: absolute;
+    top: -62px;
     left: 0;
     right: 0;
-    bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 31px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
 
-    .title {
-      margin-top: 45px;
+    .python-content {
+      max-width: 55em;
+      margin: 0 auto;
 
-      h3 {
-        @include font-family(CeraPRO, 40px, bold, normal, normal, normal, -0.68, $white_color);
+      .title {
+        margin-top: 45px;
+
+        h3 {
+          @include font-family(CeraPRO, 40px, bold, normal, normal, normal, -0.68, $white_color);
+        }
       }
-    }
 
-    .content {
-      margin-top: 21px;
+      .content {
+        margin-top: 21px;
 
-      p {
-        @include font-family(CeraPRO, 16px, normal, normal, normal, 1.68, 0.91, $white_color);
+        p {
+          @include font-family(CeraPRO, 16px, normal, normal, normal, 1.68, 0.91, $white_color);
+        }
       }
-    }
 
-    .photo {
-      width: 268px;
-      height: 268px;
+      .photo {
+        width: 280px;
 
-      img {
-        width: 100%;
-        height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+        }
       }
     }
   }
 }
 
 .road-map {
+  padding-top: 100px;
+
   .head {
     text-align: center;
     padding: 0px;
@@ -1380,6 +1452,7 @@ header {
 //---------------> video start <-------------
 
 .selected-video-content {
+  padding-top: 100px;
   .date-address {
     padding: 30px 0;
     margin-top: 40px;
@@ -1639,6 +1712,7 @@ header {
 
 .teacher-staff {
   //padding: 0 100px;
+  padding-top: 100px;
 
   .teacher-photo {
     .photo {
@@ -1745,6 +1819,8 @@ header {
 }
 
 .footer {
+  padding-top: 7rem;
+
   .footer-top {
     .form-group {
       margin-bottom: 5rem;
@@ -1848,6 +1924,28 @@ header {
       }
     }
   }
+
+  .title {
+    h1 {
+      font-size: 25px !important;
+    }
+
+
+  }
+  .text {
+    p {
+      font-size: 14px !important;
+    }
+  }
+
+
+  .new-blog {
+    padding: 0;
+  }
+
+  .old-blog {
+    padding: 0;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1856,30 +1954,116 @@ header {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   .header-main, .header-light {
     display: none;
   }
+
   .header-res {
     display: block !important;
   }
 
-  .blog-cooperation-content {
+  .blog-cooperation-content, .training-cooperation-content {
     .photo {
-      position: static;
-      width: 100%;
+      position: static !important;
+      width: 100% !important;
+    }
+
+    .title {
+      padding-top: 0 !important;
     }
 
     .content {
-      width: 100%;
-      padding: 10px;
+      width: 100% !important;
+      padding: 10px !important;
     }
   }
+
+  .training-cooperation-content {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .title {
+      margin-top: 0 !important;
+    }
+  }
+
+  .opinion {
+    .social-links {
+      & > div {
+        margin-bottom: 10px;
+      }
+    }
+
+    .date-address {
+      flex-direction: column;
+
+      .date {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
   .content-box {
     flex-wrap: wrap;
   }
 
-  .training-cooperation-content {
-    flex-wrap: wrap-reverse;
+  .features-block-content {
+    flex-wrap: wrap;
+    padding: 35px !important;
+    text-align: center;
+
+    .box {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 0 !important;
+      margin-bottom: 25px;
+
+      .icon {
+        margin-bottom: 5px;
+      }
+
+      .content {
+        margin-left: 0px !important;
+      }
+    }
+  }
+
+  .partner-block {
+    .partner {
+      justify-content: center;
+    }
+  }
+
+  .difference-block {
+    .content {
+      padding: 20px;
+    }
+  }
+
+  .ft-address {
+    span {
+      margin-left: 0 !important;
+    }
+  }
+
+  .ft-menu {
+    .title {
+      h1 {
+        font-size: 15px !important;
+      }
+    }
+  }
+
+  .phyton-camp {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .blog-cooperation-content {
+    .photo {
+      width: 50%;
+    }
   }
 }
