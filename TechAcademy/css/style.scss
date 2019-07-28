@@ -1751,14 +1751,10 @@ header {
 }
 
 .teacher-staff {
-  //padding: 0 100px;
   padding-top: 100px;
 
   .teacher-photo {
     .photo {
-      //width: 400px;
-      //height: 400px;
-
       img {
         width: 100%;
         height: 100%;
@@ -1801,19 +1797,12 @@ header {
     }
 
 
-
-
   }
-  input {
-    &:focus {
-      box-shadow: none;
-    }
-  }
+
   .form-input {
     position: relative;
     font-family: CeraPRO;
-    //display: flex;
-    //justify-content: center;
+
     .label-input {
       color: #969696;
       position: absolute;
@@ -1821,8 +1810,15 @@ header {
       bottom: 0;
       transition: all .5s ease;
     }
-    .active-click{
+
+    .active-click {
       left: 0;
+    }
+
+    input {
+      &:focus {
+        box-shadow: none;
+      }
     }
   }
 

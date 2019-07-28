@@ -6,8 +6,9 @@ $(document).ready(function () {
         mouseDrag: true,
         pagination: false,
         dots: true,
-        autoplay: false,
-        autoPlayTimeOut: 1000,
+        autoplay: true,
+        autoPlayTimeOut: 2000,
+        smartSpeed: 1500
     });
     $(window).scroll(function () {
 

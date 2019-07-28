@@ -110,20 +110,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TechAcademy/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="189" column="33" selection-start-line="189" selection-start-column="33" selection-end-line="189" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TechAcademy/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="1805" column="3" lean-forward="true" selection-start-line="1805" selection-start-column="3" selection-end-line="1805" selection-end-column="3" />
+            <state relative-caret-position="29699">
+              <caret line="1753" selection-start-line="1753" selection-end-line="1753" />
             </state>
           </provider>
         </entry>
@@ -160,7 +160,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>part</find>
       <find>date-address</find>
       <find>.pyt</find>
       <find>road-map</find>
@@ -190,6 +189,7 @@
       <find>labe</find>
       <find>btn</find>
       <find>Full</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,8 +210,8 @@
         <option value="$PROJECT_DIR$/TechAcademy/training-iu.html" />
         <option value="$PROJECT_DIR$/TechAcademy/video.html" />
         <option value="$PROJECT_DIR$/TechAcademy/index.html" />
-        <option value="$PROJECT_DIR$/TechAcademy/js/script.js" />
         <option value="$PROJECT_DIR$/TechAcademy/css/style.scss" />
+        <option value="$PROJECT_DIR$/TechAcademy/js/script.js" />
       </list>
     </option>
   </component>
@@ -305,12 +305,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564158485123</updated>
-      <workItem from="1564158486405" duration="66883000" />
+      <workItem from="1564158486405" duration="67598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66883000" />
+    <option name="totallyTimeSpent" value="67598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -537,17 +537,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TechAcademy/js/script.js">
+    <entry file="file://$PROJECT_DIR$/TechAcademy/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="189" column="33" selection-start-line="189" selection-start-column="33" selection-end-line="189" selection-end-column="33" />
+        <state relative-caret-position="29699">
+          <caret line="1753" selection-start-line="1753" selection-end-line="1753" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TechAcademy/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/TechAcademy/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="1805" column="3" lean-forward="true" selection-start-line="1805" selection-start-column="3" selection-end-line="1805" selection-end-column="3" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -1794,8 +1794,6 @@ header .header-light .stu-btn-id {
       letter-spacing: -0.68;
       color: #2d2d94;
       text-align: center; }
-.apply input:focus {
-  box-shadow: none; }
 .apply .form-input {
   position: relative;
   font-family: CeraPRO; }
@@ -1807,6 +1805,8 @@ header .header-light .stu-btn-id {
     transition: all .5s ease; }
   .apply .form-input .active-click {
     left: 0; }
+  .apply .form-input input:focus {
+    box-shadow: none; }
 .apply .form-sub {
   max-width: 55em;
   margin: 0 auto; }
