@@ -241,11 +241,48 @@ $black-color: #121e24;
 .header-res {
   display: none;
   @include header-logo($main_color, #00bcf2);
+  @include header-button($main_color, #00bcf2);
+
+  .stu-btn-holder {
+    display: flex;
+    justify-content: center;
+  }
 
   .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .open-sub-menu {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 2px;
+      top: 12px;
+      right: 0;
+      background: $main_color;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 14px;
+      height: 2px;
+      bottom: 10px;
+      right: 0;
+      transform: rotate(90deg);
+      background: $main_color;
+    }
+  }
+
+  .active-sub {
+    &:after {
+      background: transparent;
+    }
   }
 
   .menu {
@@ -736,6 +773,7 @@ header {
 }
 
 .training-ui-cooperation {
+
   .content {
     padding: 40px;
   }
@@ -1164,7 +1202,8 @@ header {
     background-color: $main_color;
     border-radius: 30px;
     padding: 12px 35px;
-    a{
+
+    a {
       color: white;
     }
   }
@@ -1453,6 +1492,7 @@ header {
 
 .selected-video-content {
   padding-top: 100px;
+
   .date-address {
     padding: 30px 0;
     margin-top: 40px;
@@ -1759,6 +1799,31 @@ header {
         text-align: center;
       }
     }
+
+    input {
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+
+  }
+
+  .form-input {
+    position: relative;
+    font-family: CeraPRO;
+    //display: flex;
+    //justify-content: center;
+    .label-input {
+      color: #969696;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transition: all .5s ease;
+    }
+    .active-click{
+      left: 0;
+    }
   }
 
   .form-sub {
@@ -2057,6 +2122,23 @@ header {
 
   .phyton-camp {
     display: none;
+  }
+
+  .new-training {
+    padding-top: 0;
+  }
+
+  .head-left {
+    .title {
+      h1 {
+        font-size: 15px !important;
+      }
+
+    }
+
+    a {
+      font-size: 14px;
+    }
   }
 }
 

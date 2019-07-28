@@ -144,10 +144,50 @@
       .header-res .header-logo a h3 span {
         color: #00bcf2;
         font-family: initial; }
+  .header-res .stu-btn-id {
+    border-radius: 30px;
+    padding: 12px 27px;
+    border: 1px solid #2d2d94; }
+    .header-res .stu-btn-id a {
+      font-family: CeraPRO;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: -0.54;
+      color: #00bcf2;
+      text-decoration: none; }
+      .header-res .stu-btn-id a::after {
+        content: ""; }
+  .header-res .stu-btn-holder {
+    display: flex;
+    justify-content: center; }
   .header-res .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+  .header-res .open-sub-menu {
+    position: relative; }
+    .header-res .open-sub-menu:before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 2px;
+      top: 12px;
+      right: 0;
+      background: #2d2d94; }
+    .header-res .open-sub-menu:after {
+      content: '';
+      position: absolute;
+      width: 14px;
+      height: 2px;
+      bottom: 10px;
+      right: 0;
+      transform: rotate(90deg);
+      background: #2d2d94; }
+  .header-res .active-sub:after {
+    background: transparent; }
   .header-res .menu {
     padding: 10px;
     cursor: pointer; }
@@ -1754,6 +1794,19 @@ header .header-light .stu-btn-id {
       letter-spacing: -0.68;
       color: #2d2d94;
       text-align: center; }
+  .apply .head input:focus {
+    box-shadow: none; }
+.apply .form-input {
+  position: relative;
+  font-family: CeraPRO; }
+  .apply .form-input .label-input {
+    color: #969696;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transition: all .5s ease; }
+  .apply .form-input .active-click {
+    left: 0; }
 .apply .form-sub {
   max-width: 55em;
   margin: 0 auto; }
@@ -1955,7 +2008,15 @@ header .header-light .stu-btn-id {
     font-size: 15px !important; }
 
   .phyton-camp {
-    display: none; } }
+    display: none; }
+
+  .new-training {
+    padding-top: 0; }
+
+  .head-left .title h1 {
+    font-size: 15px !important; }
+  .head-left a {
+    font-size: 14px; } }
 @media (min-width: 1025px) and (max-width: 1300px) {
   .blog-cooperation-content .photo {
     width: 50%; } }

@@ -211,6 +211,24 @@ $(document).ready(function () {
         let $this = $(element.currentTarget);
         $this.closest('.p-3').toggleClass('active-menu-sub');
         let hasActiveClass = $this.closest('.p-3').hasClass('active-menu-sub');
-        hasActiveClass ? $this.text('-') : $this.text('+')
+        hasActiveClass ? $this.addClass('active-sub') : $this.removeClass('active-sub')
     })
+
+    /*on click input*/
+    $(".form-input").click((element => {
+        let $this = $(element.currentTarget);
+        let widthInput = $this.width();
+        $('.label-input').css({"left": widthInput / 2});
+
+        $this.find('.label-input').css({"left": "10px"});
+        let container = $(".form-input");
+    }))
+
+});
+
+$(document).mouseup(e => {
+    let container = $(".form-input");
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+        $('.label-input').css({"left": container.width() / 2});
+    }
 });
