@@ -221,14 +221,13 @@ $(document).ready(function () {
         $('.label-input').css({"left": widthInput / 2});
 
         $this.find('.label-input').css({"left": "10px"});
-        let container = $(".form-input");
     }))
 
 });
 
-$(document).mouseup(e => {
+$(document).mouseup(element => {
     let container = $(".form-input");
-    if (!container.is(e.target) && container.has(e.target).length === 0) {
+    if (!container.is(element.target) && container.has(element.target).length === 0) {
         $('.label-input').css({"left": container.width() / 2});
     }
 });
