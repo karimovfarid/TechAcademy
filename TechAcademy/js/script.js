@@ -50,15 +50,18 @@ $(document).ready(function () {
         $(".click-modal").fadeIn();
     });
 
-    $(".click-modal .right").click(function () {
+    $(".click-modal .right").click(function (e) {
+        e.preventDefault();
         next();
     });
 
-    $(".click-modal .left").click(function () {
+    $(".click-modal .left").click(function (e) {
+        e.preventDefault();
         prev();
     });
 
-    $(".click-modal .close").click(function () {
+    $(".click-modal .close").click(function (e) {
+        e.preventDefault();
         close();
     })
 
@@ -66,7 +69,7 @@ $(document).ready(function () {
         $(".click-modal").fadeOut();
     }
 
-    function next() {
+    function next(e) {
         if (click_image_galary.length - 1 > click_index) {
             var href = click_image.eq(click_index + 1).attr("href");
             modal_img_src.attr("src", href);
@@ -213,7 +216,7 @@ $(document).ready(function () {
         $this.closest('.p-3').toggleClass('active-menu-sub');
         let hasActiveClass = $this.closest('.p-3').hasClass('active-menu-sub');
         hasActiveClass ? $this.addClass('active-sub') : $this.removeClass('active-sub')
-    })
+    });
 
     /*on click input*/
     $(".form-input").click((element => {
