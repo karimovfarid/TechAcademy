@@ -222,9 +222,9 @@ $(document).ready(function () {
     $(".form-input").click((element => {
         let $this = $(element.currentTarget);
         let widthInput = $this.width();
-        $('.label-input').css({"left": widthInput / 2});
+        $('.label-input').removeClass('transition-animate')
 
-        $this.find('.label-input').css({"left": "10px"});
+        $this.find('.label-input').addClass('transition-animate');
     }))
 
 });
@@ -232,6 +232,6 @@ $(document).ready(function () {
 $(document).mouseup(element => {
     let container = $(".form-input");
     if (!container.is(element.target) && container.has(element.target).length === 0) {
-        $('.label-input').css({"left": container.width() / 2});
+        $('.label-input').removeClass('transition-animate')
     }
 });

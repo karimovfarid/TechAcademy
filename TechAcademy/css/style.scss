@@ -1798,6 +1798,18 @@ header {
 
 
   }
+  @keyframes input-transition {
+    from {left: 10px;}
+    to {left: 50%;}
+  }
+
+  @keyframes input-transition-active {
+    from {left: 50%;}
+    to {left: 10px;}
+  }
+
+
+
 
   .form-input {
     position: relative;
@@ -1808,7 +1820,18 @@ header {
       position: absolute;
       left: 50%;
       bottom: 0;
-      transition: all .5s ease;
+      -webkit-animation-name: input-transition; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+      animation-name: input-transition;
+      animation-duration: 1s;
+    }
+
+    .transition-animate{
+      left: 10px;
+      -webkit-animation-name: input-transition-active; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+      animation-name: input-transition-active;
+      animation-duration: 1s;
     }
 
     .active-click {
