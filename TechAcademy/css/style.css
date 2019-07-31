@@ -1810,22 +1810,12 @@ header .header-light .stu-btn-id {
   .apply .form-input .label-input {
     color: #969696;
     position: absolute;
-    left: 50%;
-    bottom: 0;
-    -webkit-animation-name: input-transition;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s;
-    /* Safari 4.0 - 8.0 */
-    animation-name: input-transition;
-    animation-duration: 1s; }
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    transition: width .8s ease; }
   .apply .form-input .transition-animate {
-    left: 10px;
-    -webkit-animation-name: input-transition-active;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s;
-    /* Safari 4.0 - 8.0 */
-    animation-name: input-transition-active;
-    animation-duration: 1s; }
+    width: 0; }
   .apply .form-input .active-click {
     left: 0; }
   .apply .form-input input:focus {

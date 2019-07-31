@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TechAcademy/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="1827" lean-forward="true" selection-start-line="1827" selection-end-line="1827" />
+            <state relative-caret-position="279">
+              <caret line="1832" column="5" lean-forward="true" selection-start-line="1832" selection-start-column="5" selection-end-line="1832" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TechAcademy/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="224" column="59" lean-forward="true" selection-start-line="224" selection-start-column="59" selection-end-line="224" selection-end-column="59" />
+            <state relative-caret-position="719">
+              <caret line="234" column="39" lean-forward="true" selection-start-line="234" selection-start-column="39" selection-end-line="234" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -52,11 +52,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TechAcademy/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="838">
+              <caret line="236" column="70" selection-start-line="236" selection-start-column="70" selection-end-line="236" selection-end-column="86" />
               <folding>
                 <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -105,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TechAcademy/about.html" />
         <option value="$PROJECT_DIR$/TechAcademy/blog.html" />
         <option value="$PROJECT_DIR$/TechAcademy/contact.html" />
         <option value="$PROJECT_DIR$/TechAcademy/new-training.html" />
@@ -118,15 +116,16 @@
         <option value="$PROJECT_DIR$/TechAcademy/old-training.html" />
         <option value="$PROJECT_DIR$/TechAcademy/training-iu.html" />
         <option value="$PROJECT_DIR$/TechAcademy/js/script.js" />
+        <option value="$PROJECT_DIR$/TechAcademy/about.html" />
         <option value="$PROJECT_DIR$/TechAcademy/css/style.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2343" />
-    <option name="y" value="-9" />
-    <option name="width" value="819" />
-    <option name="height" value="635" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,23 +211,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564158485123</updated>
-      <workItem from="1564158486405" duration="80813000" />
+      <workItem from="1564158486405" duration="84391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80813000" />
+    <option name="totallyTimeSpent" value="84391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19915701" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19915701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" weight="0.42917848" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
@@ -243,10 +242,10 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19915701" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.42917848" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -358,18 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TechAcademy/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TechAcademy/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -446,17 +433,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TechAcademy/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="236" column="70" selection-start-line="236" selection-start-column="70" selection-end-line="236" selection-end-column="86" />
+          <folding>
+            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TechAcademy/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="224" column="59" lean-forward="true" selection-start-line="224" selection-start-column="59" selection-end-line="224" selection-end-column="59" />
+        <state relative-caret-position="719">
+          <caret line="234" column="39" lean-forward="true" selection-start-line="234" selection-start-column="39" selection-end-line="234" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TechAcademy/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="1827" lean-forward="true" selection-start-line="1827" selection-end-line="1827" />
+        <state relative-caret-position="279">
+          <caret line="1832" column="5" lean-forward="true" selection-start-line="1832" selection-start-column="5" selection-end-line="1832" selection-end-column="5" />
         </state>
       </provider>
     </entry>

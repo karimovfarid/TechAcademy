@@ -1818,20 +1818,14 @@ header {
     .label-input {
       color: #969696;
       position: absolute;
-      left: 50%;
-      bottom: 0;
-      -webkit-animation-name: input-transition; /* Safari 4.0 - 8.0 */
-      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-      animation-name: input-transition;
-      animation-duration: 1s;
+      text-align: center;
+      white-space: nowrap;
+      width: 100%;
+      transition: width .8s ease;
     }
 
     .transition-animate{
-      left: 10px;
-      -webkit-animation-name: input-transition-active; /* Safari 4.0 - 8.0 */
-      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-      animation-name: input-transition-active;
-      animation-duration: 1s;
+      width: 0;
     }
 
     .active-click {
